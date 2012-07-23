@@ -1,0 +1,21 @@
+{ "name": "penawall-viewer"
+, "version": "0.0.1"
+, "main": "./pentawall-viewer.js"
+, "description": "pentawall viewer"
+, "author": { "name": "sebseb7"
+  	    , "email": "seb@exse.net"
+ 	    , "web": "http://ddfpv.de/"
+ 	    }
+, "dependencies": { "socket.io-client": ">= 0.9.6", "sdl": ">= 0.1.8" ,"coffee-script": ">= 1.2.0"}
+, "repositories": [{ "type": "git"
+		   , "path": "https://github.com/sebseb7/pentawall-viewer.git"
+		   }]
+, "homepage": "https://github.com/sebseb7/pentawall-viewer"
+, "bugs": "https://github.com/sebseb7/pentawall-viewer/issues"
+, "maintainers": [{ "name": "sebseb7"
+		  , "email": "seb@exse.net"
+		  , "web": "http://ddfpv.de/"
+		 }]
+, "licenses": [{ "type": "APL" }]
+, "engines": { "node": ">=0.8.0" }
+}
